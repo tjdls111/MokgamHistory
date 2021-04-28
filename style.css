@@ -1,0 +1,17 @@
+.button{
+  font-size:20px;
+  color:black;
+  border: 5px solid green;
+  padding:4px;
+  margin:4px;
+  text-decoration:none;
+}
+
+h1{
+  font-size: 50px;
+  text-align:center;
+}
+
+.addes{
+  color:gray;
+}
