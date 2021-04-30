@@ -1,17 +1,19 @@
-.button{
-  font-size:20px;
-  color:black;
-  border: 5px solid green;
-  padding:4px;
-  margin:4px;
-  text-decoration:none;
-}
-
 h1{
   font-size: 50px;
   text-align:center;
+  padding: 5px;
+  background-color: cornflowerblue;
 }
 
 .addes{
-  color:gray;
+  color:white;
+  padding:20px;
+  background-color: dimgray;
+}
+
+.problem{
+  font-size:20px;
+  padding: 10px;
+  margin:5px;
+  background-color: lightskyblue;
 }
