@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!--script async src="https://www.googletagmanager.com/gtag/js?id=G-DPSHFZW46W"></script-->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-DPSHFZW46W');
+    </script>
+    <title>참여방법_설명</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <script>
+    function answerCheck()
+    {
+      return document.getElementById("ans").value;
+    }
+    </script>
+
+
+    <h1>참여방법 설명</h1>
+    <script>
+      document.write('빈칸에 답을 입력하고 정답 확인하기 버튼를 누르면 됩니다.<br>정답이 아니면, 다음 장으로 넘어가지 않습니다.');
+    </script>
+    <div class="problem">
+      연습 문제: 12월은 어떤 계절일까요?<br>
+      <input id="ans" type="text">
+      <input type="button" value="정답 확인하기" onclick="
+        if (answerCheck()==='겨울')
+        {
+          location.href='https://sites.google.com/view/mokhistory/%EC%8A%A4%ED%86%A0%EB%A6%AC1';
+        }
+        else
+        {
+          alert('정답이 아닙니다~ 봄, 여름, 가을, 겨울 중에 써주세요.');
+        }
+        ">
+    </div>
+  </body>
+</html>
