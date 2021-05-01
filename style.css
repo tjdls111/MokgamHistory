@@ -10,7 +10,7 @@ h1{
 
 .addes{
   display: block;
-  padding-bottom: 15px;
+  padding-bottom: 5px;
   color:white;
   background-color: #766161;
 }
@@ -34,9 +34,9 @@ body, html {
 }
 
 #hero_text{
+  color: white;
   background-color:inherit;
 }
-
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img1.jpg");
   height: 30%;
