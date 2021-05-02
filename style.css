@@ -52,6 +52,13 @@ body{font-family:'Poor Story', serif;
 }
 
 
+.button_and_title
+{
+  display:flex;
+  justify-content: space-around;
+}
+
+
 #hero_text{
   color: white;
   background-color:inherit;
