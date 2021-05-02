@@ -8,35 +8,16 @@ h1{
   border-top: medium black double;
 }
 
-.addes{
-  display: block;
-  padding-bottom: 5px;
-  color:white;
-  background-color: #766161;
+a{
+  color:#87a7b3
 }
 
-.problem{
-  font-size:25px;
-  padding: 10px;
-  margin:5px;
-  background-color:#e1f1dd;
-  border: medium black double;
-}
+body{font-family:'Poor Story', serif;
+    font-size:20px;
+    background-image:url('background.png');
+    height:100vh;
+    }
 
-body{font-family:'Poor Story', serif;}
-body{font-size:20px;}
-
-body{
-  background-image:url('background.png');
-}
-body, html {
-    height: 100%;
-}
-
-#hero_text{
-  color: white;
-  background-color:inherit;
-}
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img1.jpg");
   height: 30%;
@@ -55,10 +36,23 @@ body, html {
   color: white;
 }
 
-  .note_background{
-    background-image:url('note.png');
-  }
+.page-footer{
+  display: block;
+  padding-bottom: 5px;
+  color:white;
+  background-color: #766161;
+}
 
-  .link{
-    color:#87a7b3
-  }
+.problem{
+  font-size:25px;
+  padding: 10px;
+  margin:5px;
+  background-color:#e1f1dd;
+  border: medium black double;
+}
+
+
+#hero_text{
+  color: white;
+  background-color:inherit;
+}

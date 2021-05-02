@@ -17,35 +17,39 @@
   </head>
 
   <body>
-    <script>
-    function answerCheck()
-    {
-      return document.getElementById("ans").value;
-    }
-    </script>
 
     <div class="hero-image">
-    <div class="hero-text">
-      <h1 id="hero_text">시흥시 목감지구 역사 게임</h1>
+      <div class="hero-text">
+        <h1 id="hero_text">시흥시 목감지구 역사 게임</h1>
+      </div>
     </div>
-  </div>
     <h1> <img src="back.png" width=45px onclick="location.href='2desc.html';">&nbsp<img src="home.png" width=45px onclick="location.href='index.html';"> &nbsp &nbsp참여방법 설명 </h1>
-    <script>
-      document.write('빈칸에 답을 입력하고 정답 확인하기 버튼을 누르면 됩니다.<br>정답이 아니면, 다음 장으로 넘어가지 않습니다.');
-    </script>
-    <div class="problem">
-      연습 문제: 12월은 어떤 계절일까요?<br>
-      <input id="ans" type="text">
-      <input type="button" value="정답 확인하기" onclick="
-        if (answerCheck()==='겨울')
-        {
-          location.href='https://sites.google.com/view/mokhistory/%EC%8A%A4%ED%86%A0%EB%A6%AC1';
-        }
-        else
-        {
-          alert('정답이 아닙니다~ 봄, 여름, 가을, 겨울 중에 써주세요.');
-        }
-        ">
-    </div>
+
+    <main>
+      <script>
+      function answerCheck()
+      {
+        return document.getElementById("ans").value;
+      }
+      </script>
+
+      <script>
+        document.write('빈칸에 답을 입력하고 정답 확인하기 버튼을 누르면 됩니다.<br>정답이 아니면, 다음 장으로 넘어가지 않습니다.');
+      </script>
+      <div class="problem">
+        연습 문제: 12월은 어떤 계절일까요?<br>
+        <input id="ans" type="text">
+        <input type="button" value="정답 확인하기" onclick="
+          if (answerCheck()==='겨울')
+          {
+            location.href='https://sites.google.com/view/mokhistory/%EC%8A%A4%ED%86%A0%EB%A6%AC1';
+          }
+          else
+          {
+            alert('정답이 아닙니다~ 봄, 여름, 가을, 겨울 중에 써주세요.');
+          }
+          ">
+      </div>
+    </main>
   </body>
 </html>
