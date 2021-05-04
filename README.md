@@ -3,4 +3,4 @@
 
 https://sites.google.com/view/mokhistory/%ED%99%88
 
-HTML, CSS, JavaScript를 공부할 겸, 비슷하게 만들어보려고 한다.
+HTML, CSS, JavaScript를 활용해서, 이를 발전시켜보려고 한다.
