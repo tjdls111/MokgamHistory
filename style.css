@@ -75,7 +75,7 @@ body{font-family:'Poor Story', serif;
 }
 .navImg:hover
 {
-  width:6%;
+  opacity: 0.5;
 }
 
 @media(max-width:770px)
@@ -90,7 +90,7 @@ body{font-family:'Poor Story', serif;
   }
   .navImg:hover
   {
-    width:4.5%;
+    opacity:0.5;
   }
 
   .navTitle
@@ -100,6 +100,4 @@ body{font-family:'Poor Story', serif;
     font-size: 100%;
     text-align: center;
   }
-
-
 }
