@@ -14,6 +14,16 @@ body{font-family:'Poor Story', serif;
     height:100vh;
     }
 
+.button{
+  outline: none;
+  background-color:#766161 ;
+  color: white;
+  font-size: 100%;
+  margin:16px 0;
+  cursor:pointer;
+  border-radius: 10%;
+}
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img1.jpg");
   height: 30%;
